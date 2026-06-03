@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+.ul{
+  display: flex;
+  gap: 40px;
+  font-family: sans-serif;
+}
+.ul li{
+  text-decoration: none;
+  display: block;
+}
+#img{
+  width: 250px;
+  height: 45px;
+  margin-top: -10px;
+}
+.input{
+  width: 200px;
+  height: 40px;
+  border-radius: 50px;
+  border: 1px solid;
+}
+.div2{
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.div3{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
