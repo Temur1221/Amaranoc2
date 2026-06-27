@@ -6,6 +6,7 @@ import Sale from './pages/Sale';
 import Service from "./pages/Service.jsx";
 import About from './pages/About.jsx';
 import Gaxtniutyun from './pages/Gaxtniutyun.jsx'; 
+import PropertyDetail from './pages/PropertyDetail.jsx';
 import Favorites from './pages/Favorites.jsx';
 
 export default function App() {
@@ -18,6 +19,7 @@ export default function App() {
         <Route path="/about" element={<About />} />
         <Route path="/Gaxtniutyun" element={<Gaxtniutyun />} />
         <Route path="/Favorites" element={<Favorites />} />
+        <Route path="/property/:id" element={<PropertyDetail />} />
       </Routes>
     </BrowserRouter>
   )

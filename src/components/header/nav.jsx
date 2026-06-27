@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 
 export default function Navbar() {
   return (
+    <div className=" flex max-[1300px]:hidden">
     <ul className='ul'>
       <li className='li1'>
         <Link to="/">Գլխավոր</Link>
@@ -17,5 +18,6 @@ export default function Navbar() {
         <Link to="/about">Մեր մասին</Link> 
       </li>
     </ul>
+    </div>
   )
 }

@@ -10,7 +10,6 @@ export default function Discounts() {
       desc: "Ստացիր 5-15% զեղչ կատարելով ամրագրում 3-ից մինչև 20 օր։",
       img: "https://amaranoc.am/images/raffle/special-discounts-image.jpg"
     },
-
     {
       id: 2,
       percent: "-10%",
@@ -18,7 +17,6 @@ export default function Discounts() {
       desc: "Վիդեո տարբերակով ներկայացրու քո լավագույն օրերից մեկը amaranoc.am ի առանձնատներից մեկում և ստացիր 15% զեղչ",
       img: "https://amaranoc.am/images/raffle/special-discounts-image.jpg"
     },
-
     {
       id: 3,
       percent: "-5%",
@@ -29,10 +27,11 @@ export default function Discounts() {
   ]
 
   return (
-    <section className="discounts">
-      <h1 className="text-center text-[30px]">ՀԱՏՈՒԿ ԶԵՂՉԵՐ</h1>
-      <div className="flex justify-center gap-[10px]">
-
+    <section className="discounts w-full max-w-[1240px] mx-auto px-4 mt-10">
+      <h1 className="text-center text-[24px] md:text-[30px] font-bold mb-6 text-[#101623] uppercase tracking-wider">
+        ՀԱՏՈՒԿ ԶԵՂՉԵՐ
+      </h1>
+      <div className="grid grid-cols-1 xl:grid-cols-3 gap-4 w-full">
         {
           discounts.map((item) => (
             <DiscountCard
@@ -41,9 +40,7 @@ export default function Discounts() {
             />
           ))
         }
-
       </div>
-
     </section>
   )
 }
