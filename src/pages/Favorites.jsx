@@ -34,7 +34,6 @@ export default function Favorites() {
             </p>
           </div>
         ) : (
-          // Եթե կան սրտիկված տներ, ցուցադրում ենք դրանք 3 սյունակով (grid)
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {favoriteHouses.map((house) => (
               <HouseCard key={house.id} house={house} />
