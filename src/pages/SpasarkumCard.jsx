@@ -13,7 +13,7 @@ export default function SpasarkumCard({ image, title, description, price }) {
           <span className="text-lg font-bold text-gray-900 flex items-center gap-1">
             <span className="text-amber-600">🪙</span> {price} ֏
           </span>
-          <button className="px-5 py-2 rounded-full border border-[#b38f4f] text-[#b38f4f] font-semibold text-sm bg-transparent hover:bg-[#b38f4f] hover:text-white transition-colors duration-200">
+          <button className="px-5 py-2 rounded-full border border-[#b38f4f] text-[#b39055] font-semibold text-sm bg-transparent hover:bg-[#b38f4f] hover:text-white transition-colors duration-200">
             Ամրագրել
           </button>
         </div>
