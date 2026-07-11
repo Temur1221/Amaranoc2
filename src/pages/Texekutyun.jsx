@@ -72,7 +72,7 @@ export default function texekutyun() {
             <p>Armine</p>           
         </div>
         <p>⭐️⭐️⭐️⭐️⭐️</p>
-        <p className='text-[13px]'>🥰 Очень довольна, Они очень помогли<br /> мне с выбором дома, и дом был просто<br /> замечательным.</p>
+        <p className='text-[13px]'>Очень довольна, Они очень помогли<br /> мне с выбором дома, и дом был просто<br /> замечательным.</p>
     </div>
     <div className="relative inset-x-0 top-[450px]">
         <div className="flex items-center">
