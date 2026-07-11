@@ -135,8 +135,6 @@ export default function Home() {
             >
               <i className="fa-solid fa-bars text-[18px]"></i>
             </button>
-
-            {/* Կողային Մենյու (Sidebar Drawer) */}
             <div className={`fixed inset-0 z-50 transition-opacity duration-300 ${isHeaderOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}>
               {/* Մութ ֆոն (Overlay) */}
               <div 
