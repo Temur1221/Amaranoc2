@@ -1,6 +1,7 @@
 .site-footer {
   background-color: #0d1624;
   color: #ffffff;
+  width:100%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
   padding: 60px 20px 120px 20px;
   text-align: center;
@@ -71,18 +72,19 @@
 }
 
 .ad-section {
-  background-image: url('https://d31qtdfy11mjj9.cloudfront.net/articles/109/dilijan-national-park111.webp');
+  background-image: url('https://amaranoc.am/images/footer/home-add-application.png');
   background-size: cover;
   background-position: center;
   padding: 80px 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
+  width:100%;
   justify-content: center;
   align-items: center;
   margin-top:420px;
 }
 .ad-sectionn{
-  background-image: url('https://d31qtdfy11mjj9.cloudfront.net/articles/109/dilijan-national-park111.webp');
+  background-image: url('https://amaranoc.am/images/footer/home-add-application.png');
   background-size: cover;
   background-position: center;
   padding: 80px 20px;

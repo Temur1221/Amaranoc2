@@ -7,6 +7,8 @@
 .header{
   display: flex;
   justify-content: space-between;
+  gap: 150px;
+  text-align:center;
   align-items: center;
   padding: 30px;
 }

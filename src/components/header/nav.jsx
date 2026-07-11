@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export default function Navbar() {
   return (
-    <div className=" flex max-[1300px]:hidden">
+    <div className="">
     <ul className='ul'>
       <li className='li1'>
         <Link to="/">Գլխավոր</Link>
