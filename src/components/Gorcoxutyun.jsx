@@ -4,7 +4,7 @@ export default function Gorcoxutyun({ gorc }) {
   return (
     <div className="text-center items-center flex flex-col">
       <img
-        className="w-[27px] h-[27px]"
+        className="w-[26px] h-[26px]"
         src={gorc.image}
         alt=""
       />
